@@ -3,19 +3,23 @@
 <head>
 	<meta charset="utf-8">
 	<title>Travel From Tokyo</title>
+	<link href="{{site.baseurl}}/css/common.css" rel="stylesheet">
 </head>
 <body>
 
 <header>
 	<h1>Where do you want to go ? </h1>
-	<nav>
-		<ul>
-			<li><a href="{{site.baseurl}}/index.html">Home</a></li>
-			<li><a href="{{site.baseurl}}/nikko.html">Nikko</a></li>
-		</ul>
-	</nav>
+
+	{% include nav.html %}
 </header>
+
 {{content}}
+
+<footer>
+	<p> Travelling gives you pleasure</p>
+
+	{% include nav.html %}
+</footer>
 
 </body>
 </html>
