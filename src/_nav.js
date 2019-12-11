@@ -21,7 +21,7 @@ export default {
     },
     {
       name: "What, Why, How ?",
-      url: "/theme/colors",
+      url: "/",
       icon: "icon-drop"
     },
     // {
@@ -39,8 +39,8 @@ export default {
     },
     {
       name: "Kanto Region",
-      url: "/base",
-      icon: "icon-puzzle",
+      url: "/kanto",
+      icon: "icon-drop",
       children: [
         // {
         //   name: "Breadcrumbs",
@@ -74,7 +74,7 @@ export default {
         // },
         {
           name: "Nikko",
-          url: "/base/jumbotrons",
+          url: "/kanto/nikko",
           icon: "icon-puzzle"
         }
         // {
