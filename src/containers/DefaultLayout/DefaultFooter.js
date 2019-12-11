@@ -15,7 +15,10 @@ class DefaultFooter extends Component {
     return (
       <React.Fragment>
         <span>
-          <a></a>{" "}
+          <a href="https://github.com/coreui/coreui-free-react-admin-template">
+            Template
+          </a>
+          {""}
         </span>
         <span className="ml-auto">
           Developed by <a href="https://github.com/codechaitu">codechaitu</a>
